@@ -10,7 +10,23 @@
   <version>0.1.0-SNAPSHOT</version>
   <modules>
     <module>jori-core</module>
+    <module>jori-server</module>
   </modules>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>${groupId}</groupId>
+        <artifactId>jori-core</artifactId>
+        <version>${version}</version>
+      </dependency>
+      <dependency>
+        <groupId>${groupId}</groupId>
+        <artifactId>jori-server</artifactId>
+        <version>${version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <properties>
     <java.version>1.8</java.version>

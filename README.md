@@ -24,3 +24,8 @@ bazel build //:joricore-j2cl --incompatible_disable_deprecated_attr_params=false
     * guava
         * don't know how to transpile
         * guava support gwt suppose to be transpile-able
+
+
+## PEG Reference
+* [Java 8](https://docs.oracle.com/javase/specs/jls/se8/html/jls-19.html)
+* [pegjs/parser.pegjs](https://github.com/pegjs/pegjs/blob/master/src/parser.pegjs)
